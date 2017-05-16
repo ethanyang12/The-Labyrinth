@@ -18,8 +18,15 @@ class MazeClient{
 	
 	// Method that "starts" the game
 	void StartGame(scanner){
+		intro();
 		if(scanner input = enter){ // assuming enter key starts the game
 		
 		}
+	}
+	
+	// Method that prints our intro text
+	void intro(){
+		println("Welcome to the Labyrinth");
+		println("Press \"Enter\" to Start")
 	}
 }
