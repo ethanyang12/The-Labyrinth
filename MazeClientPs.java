@@ -11,7 +11,7 @@ class MazeClient{
 		intro();
 		if(scanner input = enter){ // assuming enter key starts the game
 			// Code that starts the game
-         Game s1 = new Game(); // Our game is an object. To play a game, we must create the object.
+            Game s1 = new Game(); // Our game is an object. To play a game, we must create the object.
 		   s1.Play(); // Object StartGame will have a method named "Play" that "starts" the game.
 		}
 	}
