@@ -20,7 +20,7 @@ class MazeClient{
 	void StartGame(scanner){
 		intro();
 		if(scanner input = enter){ // assuming enter key starts the game
-		
+			// Code that starts the game
 		}
 	}
 	
