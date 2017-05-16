@@ -14,7 +14,7 @@ class MazeClient{
                 if(s.input = enter){ // assuming enter key starts the game
                         // Code that starts the game
                         Game g1 = new Game(); // Our game is an object. To play a game, we must create the object.
-                        s1.Play(); // Object StartGame will have a method named "Play" that "starts" the game.
+                        g1.Play(); // Object StartGame will have a method named "Play" that "starts" the game.
                 }
         }
         
