@@ -1,6 +1,6 @@
 // Pseudocode for Class MazeClient
 
-// import java.util.*;
+import java.util.*;
 class MazeClient{
 	void main(String[] args){
 		StartGame(scanner);
