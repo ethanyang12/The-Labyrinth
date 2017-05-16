@@ -27,6 +27,6 @@ class MazeClient{
 	// Method that prints our intro text
 	void intro(){
 		println("Welcome to the Labyrinth");
-		println("Press \"Enter\" to Start")
+		println("Press \"Enter\" to Start");
 	}
 }
