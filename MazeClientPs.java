@@ -3,14 +3,16 @@
 import java.util.*;
 class MazeClient{
 	void main(String[] args){
-		StartGame(scanner);
+		Scanner s = new Scanner();
+		StartGame(s);
 	}
 	
 	// Method that "starts" the game
-	void StartGame(scanner){
+	void StartGame(scanner s){
 		intro();
-		if(scanner input = enter){ // assuming enter key starts the game
-			// Code that starts the game
+		s.next();
+		if(s.input = enter){ // assuming enter key starts the game
+		   // Code that starts the game
                    Game s1 = new Game(); // Our game is an object. To play a game, we must create the object.
 		   s1.Play(); // Object StartGame will have a method named "Play" that "starts" the game.
 		}
