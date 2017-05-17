@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Game{
+class Game{
 	/*
 		Insert necessary fields here
 	*/
