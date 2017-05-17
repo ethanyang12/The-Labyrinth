@@ -9,6 +9,7 @@ public class MrT implements Monster{
       int damage = 50;
       return damage;
    }
+	
    public int Death() {
       int hp = 4;
       return hp;
