@@ -5,7 +5,7 @@
 */
 
 public class MrT implements Monster{
-	public int Damage() {
+   public int Damage() {
       int damage = 50;
       return damage;
    }
