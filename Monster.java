@@ -3,5 +3,6 @@
 */
 public interface Monster {
    public int Damage(); 
-   public int Death();   
+   public int Death();
+   public int Order();   
 }
