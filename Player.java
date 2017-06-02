@@ -1,4 +1,5 @@
-/*
+/* The player class involves mainly the Health of the player and how many potions they hold.
+   With this class the player can heal and they take damage
 */ 
 public class Player {
    private int hp;
