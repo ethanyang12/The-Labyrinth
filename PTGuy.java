@@ -12,4 +12,8 @@ public class PTGuy implements Monster {
       int hp = 1;
       return hp;
    }
+   public int Order() {
+      int appearancenumber = 1;
+      return appearancenumber;
+   }
 }
