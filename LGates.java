@@ -12,4 +12,8 @@ public class LGates implements Monster {
       int hp = 2;
       return hp;
    }
+   public int Order() {
+      int appearancenumber = 2;
+      return appearancenumber;
+   }
 }
