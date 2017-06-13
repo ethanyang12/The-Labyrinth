@@ -16,8 +16,8 @@ public class Combat {
          System.out.println("HP - " + playerhp);
          System.out.println();
          
-         System.out.println("Type ATTACK");
-         if (console.next().equals("ATTACK")) {
+         System.out.println("Type attack");
+         if (console.next().equals("attack")) {
             System.out.println("You've attacked the monster!");
             System.out.println();
             death--;
