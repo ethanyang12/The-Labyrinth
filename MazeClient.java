@@ -2,10 +2,11 @@
 import java.util.*;
 
 public class MazeClient {
+   private static int health;
    //the main method here will be what runs the game
    public static void main(String[] args) throws Exception{
       Scanner console = new Scanner(System.in);
-      
+      health = 100;
       //Travels the Maze; from MazeLayout
       int progress = 0;
       int[] z = new int[2]; //holds the number of left and right turns
@@ -64,7 +65,7 @@ public class MazeClient {
             System.out.println("PT Guy");
             Monster ptguy = new PTGuy();  
             Combat ptguycombat = new Combat(ptguy.Death());
-            ptguycombat.monsterAttack(ptguy.Damage(), 100, ptguy.Order());                    
+            health = ptguycombat.monsterAttack(ptguy.Damage(), health, ptguy.Order());                    
             progress++;            
          }
          
@@ -72,12 +73,12 @@ public class MazeClient {
             System.out.println("L. Gates");
             Monster lgates = new LGates();
             Combat lgatescombat = new Combat(lgates.Death());
-            lgatescombat.monsterAttack(lgates.Damage(), 100, lgates.Order());         
+            health = lgatescombat.monsterAttack(lgates.Damage(), health, lgates.Order());        
             progress++;  
          }
          
          if (z[0] == 5 && z[1] == 6) {
-            System.out.println("momo");
+            System.out.println("Momo");
             Monster momo = new Momo();
             Combat momocombat = new Combat(momo.Death());
             momocombat.monsterAttack(momo.Damage(), 100, momo.Order());         
@@ -113,7 +114,7 @@ public class MazeClient {
             System.out.println("PT Guy");
             Monster ptguy = new PTGuy();
             Combat ptguycombat = new Combat(ptguy.Death());
-            ptguycombat.monsterAttack(ptguy.Damage(), 100, ptguy.Order());         
+            health = ptguycombat.monsterAttack(ptguy.Damage(), health, ptguy.Order());         
             progress++;  
          }
          
@@ -121,12 +122,12 @@ public class MazeClient {
             System.out.println("L. Gates");
             Monster lgates = new LGates();
             Combat lgatescombat = new Combat(lgates.Death());
-            lgatescombat.monsterAttack(lgates.Damage(), 100, lgates.Order());         
+            health = lgatescombat.monsterAttack(lgates.Damage(), health, lgates.Order());         
             progress++;  
          }
          
          if (z[0] == 5 && z[1] == 6) {
-            System.out.println("momo");
+            System.out.println("Momo");
             Monster momo = new Momo();
             Combat momocombat = new Combat(momo.Death());
             momocombat.monsterAttack(momo.Damage(), 100, momo.Order());         
