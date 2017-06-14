@@ -14,22 +14,6 @@ public class MazeClient {
       int y = z[1];*/
       choice(progress, z);
       
-      //random test
-      Monster momo = new Momo();
-      Player p1 = new Player(100, 0);
-      int currenthp = p1.hp;
-      //momodamage = 20
-      int momodamage = momo.Damage();
-      //playerhealth = 80 after taking 20 damage from Momo
-      int playerhealth = p1.Health(momodamage);
-      System.out.print(playerhealth);
-      
-      while(playerhealth < 100) {
-         if(p1.Potions() > 0) {
-            int currenthealth = playerhealth + p1.Heal();
-         }
-         Combat fightmomo = new Combat(momo.Death());   
-      }   
   }
   public static String choice(int progress, int[] z) throws Exception {
       Scanner console = new Scanner(System.in);
