@@ -2,7 +2,7 @@
    With this class the player can heal and they take damage
 */ 
 public class Player {
-   private int hp;
+   public int hp;
    private int numberofpotions;
    
    //constructor that allows for the fields
@@ -20,6 +20,7 @@ public class Player {
       int hprestored = 20;
       return hprestored;
    }
+   //holds the number of potions and returns it 
    public int Potions() {
       int numberofpotions = this.numberofpotions;
       return numberofpotions;
