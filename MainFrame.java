@@ -23,7 +23,7 @@ public class MainFrame extends JFrame {
          contentPane.add(headerLabel, java.awt.BorderLayout.NORTH);
          // add the image label
          ImageIcon ii = new ImageIcon(this.getClass().getResource(
-                "homer.gif"));
+                "theseus_and_the_minotaur_by_bjulvar-d8kee7s.jpg"));
          imageLabel.setIcon(ii);
          contentPane.add(imageLabel, java.awt.BorderLayout.CENTER);
          // show it
