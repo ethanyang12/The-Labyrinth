@@ -12,8 +12,9 @@ public class MazeClient {
       int[] z = new int[2]; //holds the number of left and right turns
      /* int x = z[0];
       int y = z[1];*/
-      choice(progress, z);
-      
+      System.out.println("Welcome to the labyrinth!");
+      System.out.println("Will you live or will you die? For all who enter, I TERRIFY!");
+      choice(progress, z);    
   }
   public static String choice(int progress, int[] z) throws Exception {
       Scanner console = new Scanner(System.in);
